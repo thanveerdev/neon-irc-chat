@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 35% 5%;
+  --foreground: 210 15% 92%;
+
+  --muted: 210 25% 12%;
+  --muted-foreground: 210 10% 70%;
+
+  --card: 210 35% 6%;
+  --card-foreground: 210 15% 92%;
+
+  --border: 210 30% 18%;
+  --input: 210 30% 18%;
+  --ring: 296 100% 50%;
+
+  --primary: 296 100% 60%;
+  --primary-foreground: 210 15% 95%;
+
+  --secondary: 180 100% 45%;
+  --secondary-foreground: 210 15% 95%;
+
+  --accent: 264 100% 60%;
+  --accent-foreground: 210 15% 95%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 15% 95%;
+}
+
+html, body, #root {
+  height: 100%;
+  background: radial-gradient(1200px 600px at 80% -20%, rgba(0, 255, 255, 0.12), transparent 45%),
+              radial-gradient(800px 400px at -20% 100%, rgba(255, 0, 128, 0.12), transparent 35%),
+              #0b0f14;
+  color: hsl(var(--foreground));
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, 'JetBrains Mono', monospace;
+}
+
+.neon-border {
+  box-shadow: inset 0 0 0 1px rgba(0,255,255,0.2), 0 0 6px rgba(0,255,255,0.35), 0 0 18px rgba(255,0,128,0.25);
+  border-radius: 12px;
+}
+
+.terminal-grid {
+  background-image: linear-gradient(rgba(0,255,255,0.06) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0,255,255,0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg, rgba(0,255,255,0.4), rgba(255,0,128,0.4)); border-radius: 6px; }
+::-webkit-scrollbar-track { background: rgba(255,255,255,0.05); }
