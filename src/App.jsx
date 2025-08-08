@@ -140,11 +140,11 @@ export default function App() {
               </div>
               <div className="text-xs text-muted-foreground">{server} · {nick}</div>
             </div>
-            <div className="flex-1 min-h-0 grid grid-cols-1 xl:grid-cols-3 gap-3">
-              <div className="xl:col-span-2">
+            <div className="flex-1 min-h-0 grid grid-cols-1 xl:grid-cols-3 gap-3 items-stretch">
+              <div className="xl:col-span-2 h-full min-h-0">
                 <MessageList messages={messages} />
               </div>
-              <div className="hidden xl:block rounded-md neon-border p-3 bg-[rgba(255,255,255,0.02)] overflow-auto max-h-full">
+              <div className="hidden xl:block h-full rounded-md neon-border p-3 bg-[rgba(255,255,255,0.02)] overflow-auto">
                 <div className="text-xs uppercase tracking-widest text-muted-foreground mb-2">Connection Log</div>
                 <div className="space-y-1 text-[11px] leading-5">
                   {logs.map((l, i) => (
