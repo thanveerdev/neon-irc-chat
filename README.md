@@ -49,7 +49,7 @@ npm run start
 - Choose an auth method: None, NickServ, or SASL (PLAIN/EXTERNAL).
 - Join channels via the sidebar Join box (e.g. `#linux`).
 - Your messages are cyan, others magenta; notices purple; errors red.
-- Open DevTools to view console logs, or use the right-side Connection Log.
+- View the live Connection Log panel on the right (wide screens) for raw in/out lines, or open DevTools console.
 
 ## Configuration
 - UI theme uses CSS variables and Tailwind; edit `src/styles/globals.css`.
