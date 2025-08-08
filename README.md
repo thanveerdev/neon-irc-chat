@@ -12,13 +12,12 @@ A minimal, beautiful, cyberpunk terminal–inspired IRC client for macOS. Built 
 - Sensible defaults for Libera.Chat with TLS
 
 ## Preview
-> Screenshot placeholders — run locally to see the neon glow.
 
-```
-╭────────────────────────────────────────────────────────────────╮
-│   #linux · neon grid · cyan/pink glow · terminal-like UI       │
-╰────────────────────────────────────────────────────────────────╯
-```
+<p align="center">
+  <img src="docs/screenshot.png" alt="Neon IRC Chat – cyberpunk terminal UI" width="900" />
+</p>
+
+> If the image doesn’t load yet, pull latest or place your screenshot at `docs/screenshot.png` and commit.
 
 ## Install
 
